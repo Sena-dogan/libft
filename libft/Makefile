@@ -44,10 +44,6 @@ bonuslist = ft_lstnew.c \
 			ft_lstiter.c \
 			ft_lstmap.c
 
-# $@ - target kahve
-# $^ - butun dependen çekirdek ve
-# $< - ilk dependen
-
 OBJS = $(list:.c=.o)
 bonusobj = $(bonuslist:.c=.o)
 
